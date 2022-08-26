@@ -158,3 +158,30 @@ p{
     margin-right: 50px;
     /* background-color: aqua; */
 }
+
+@media screen and (max-width: 1080px){
+    .intro-section{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        align-items: center;
+        /* background-color: #FBD104; */
+    }
+    .nav-items{
+        display: none;
+    }
+    .left-section{
+        /* width: 50vw;  */
+        padding-left: 10px;
+        align-items: center;
+    }
+    .left-section h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .left-section > h3{
+        font-size: 30px;
+    }
+    .sub-headline{
+        margin-left: 0px;
+    }
+}
